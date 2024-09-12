@@ -1,0 +1,18 @@
+.stats section .container.span-stats{
+    color: var(--my-heading);
+   
+}
+ .iecon-stats{
+    color:  var(--my-primary-color);
+    font-size: 48px;
+}
+ .stats-item{
+    padding: 30px;
+    padding-bottom: 50px;
+    background-color: var(--my-white-color);
+    
+}
+.card-p 
+{
+    font-size: 16px;
+}

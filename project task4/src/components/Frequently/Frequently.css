@@ -1,0 +1,48 @@
+.frequently-sec{
+    margin: 80px;
+  }
+  
+  .frequently-sec .h2-titel-sec {
+    color: var(--my-heading);
+  }
+  .frequently-sec .para-sec {
+    color: var(--heading-color);
+  }
+  .frequently-sec .div-border-sec {
+    background-color: var(--my-primary-color);
+    height: 4px;
+    width: 50px;
+  }
+
+
+.acc-app button:active ,
+.acc-app button:focus {
+    background: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    color: aqua;
+}
+.acc-app button:active::after {
+    color: aqua;
+}
+.acc-app {
+    width: 80%;
+    margin: auto;
+}
+.acc-header {
+    padding: 5px 0;
+}
+.acc-item {
+    margin: 20px 0 !important;
+}
+.app-freq {
+    background-color: rgb(246, 255, 255);
+    padding: 20px;
+}
+.acc-header {
+    font-size: 30px !important;
+}
+.frequently-sec {
+    background-color: #f0f3f3;
+    padding: 30px 0;
+}

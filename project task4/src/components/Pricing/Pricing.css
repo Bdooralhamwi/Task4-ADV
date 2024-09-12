@@ -1,0 +1,85 @@
+.pricing-sec{
+  margin: 80px;
+}
+
+.pricing-sec .h2-titel-sec {
+  color: var(--my-heading);
+}
+.pricing-sec .para-sec {
+  color: var(--heading-color);
+}
+.pricing-sec .div-border-sec {
+  background-color: var(--my-primary-color);
+  height: 4px;
+  width: 50px;
+}
+
+
+
+
+.ribbon {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  overflow: hidden;
+  width: 75px;
+  height: 75px;
+}
+
+.ribbon span {
+  position: absolute;
+  display: block;
+  width: 100px;
+  padding: 5px 0;
+  background-color: var(--my-primary-color);
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  transform: rotate(45deg);
+  top: 25px;
+  right: -10px;
+  font-size: 0.75rem;
+  z-index: 9999;
+}
+
+.price {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.card-price .list-unstyled {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80%;
+}
+
+.card-footer button {
+  padding: 6px 30px;
+}
+.card-pricing {
+  min-height: 450px !important;
+  border: solid 3px #f8f6f6;
+  background-color: #f8f6f6;
+  overflow: hidden;
+}
+.acttive {
+  background-color: var(--my-primary-color);
+  color: #fff;
+}
+.bton-pricing button {
+  background-color: var(--my-primary-color);
+  color: #fff ;
+}
+.card-header-pricing {
+  border: none;
+}
+.card-body-pricing {
+  background-color: #fff;
+}
+.card-body-pricing .list-unstyled {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  justify-content: space-around;
+}

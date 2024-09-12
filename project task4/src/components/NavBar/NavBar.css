@@ -1,0 +1,21 @@
+.bg-my-primary{
+    background-color: var(--my-primary-color) !important ;
+ margin-left: 15px;
+}
+nav .logo img{
+  max-height: 36px;
+  
+    
+}
+
+.text-headind{
+    color: var( --heading-color) !important;
+    font-size: 18px !important;
+    margin-right: 20px;
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+}
+.text-headind:hover{
+  color: var( --my-primary-color) !important;
+ 
+}

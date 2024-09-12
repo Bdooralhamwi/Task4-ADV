@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --my-primary-color :#3fbbbf;
+    --heading-color :#444444;
+    --my-heading: #555555;
+    --my-white-color : #ffffff;
+}
+.sec {
+    margin: auto;
+    margin-bottom: 40px;
+    position: relative;
+    }
+    
+  .h2-titel-sec {
+      color: var(--my-heading);
+      position: relative;
+      border: none;
+    }
+   .para-sec {
+      color: var(--heading-color);
+      margin-top: 40px !important;
+    }
+  
+   
+    .leaflet-container {
+      height: 400px;
+    
+
+      
+    }

@@ -1,0 +1,52 @@
+.sec-about {
+  margin: 60px;
+}
+.sec-about .icon{
+  background: none !important; 
+  color: var(--heading-color);
+} 
+.sec-about .icon:hover{
+  background: none !important;
+}
+
+
+.sec-about .div-border-sec {
+  background-color: var(--my-primary-color);
+  height: 4px;
+  width: 50px;
+}
+.sec-about.h3-tex {
+  color: var(--my-heading) !important;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.sec-about .icon {
+  margin-top: 50px;
+  color: #000;
+}
+.sec-about .icon-features {
+  color: var(--my-primary-color);
+  background-color: var(--my-white-color);
+  width: 65px;
+  height: 65px;
+  transition: .5s;
+}
+.sec-about .icon-features:hover {
+  background: #3fbbbf;
+  color: white;
+}
+
+.sec-about .icon-features .icon-sec {
+  width: 200px;
+  font-size: 24px;
+}
+
+
+
+
+.sec-about .icon .h4-color {
+  color: var(--my-heading);
+}
+
+
+

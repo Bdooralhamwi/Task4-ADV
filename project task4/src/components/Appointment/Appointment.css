@@ -1,0 +1,19 @@
+.Appointment-sec{
+    margin: 80px;
+  }
+  
+  .Appointment-sec .h2-titel-sec {
+    color: var(--my-heading);
+  }
+  .Appointment-sec .para-sec {
+    color: var(--heading-color);
+  }
+  .Appointment-sec .div-border-sec {
+    background-color: var(--my-primary-color);
+    height: 4px;
+    width: 50px;
+  }
+  .Appointment-sec.bg-my-primary{
+    background-color: var(--my-primary-color) !important ;
+    
+}

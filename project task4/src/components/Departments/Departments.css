@@ -1,0 +1,36 @@
+.departments-sec{
+  margin: 80px;
+}
+
+.departments-sec .h2-titel-sec {
+  color: var(--my-heading);
+}
+.departments-sec .para-sec {
+  color: var(--heading-color);
+}
+.departments-sec .div-border-sec {
+  background-color: var(--my-primary-color);
+  height: 4px;
+  width: 50px;
+}
+
+
+.list-group-item {
+    border-radius: 0 !important;
+    padding: 15px 0 !important;
+    border: none !important;
+    border-right: 3px solid gray !important;
+    cursor: pointer;
+  }
+  
+  .list-group-item:hover {
+    background-color: #f8f9fa;
+    color: var(--my-primary-color) !important;
+  }
+  
+  .active-department {
+    border-right: 3px solid var(--my-primary-color) !important;
+    color: var(--my-primary-color) !important;
+    background-color: #e9ecef !important;
+  }
+  

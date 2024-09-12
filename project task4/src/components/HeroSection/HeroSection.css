@@ -1,0 +1,19 @@
+div .color {
+  color: var(--my-primary-color);
+}
+.text-color {
+  color: var(--my-heading);
+}
+.padding{
+    padding: 50px 30px;
+  }
+  .pt-5 {
+    background: none !important;
+    
+  }
+  @media(max-width:900px){
+    .d-block .pt-5 .card {
+      display: flex !important;
+      flex-direction: column  !important;
+    }
+  }

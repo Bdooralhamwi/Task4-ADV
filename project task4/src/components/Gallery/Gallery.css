@@ -1,0 +1,59 @@
+.gallery-sec{
+  margin: 80px;
+}
+
+.gallery-sec .h2-titel-sec {
+  color: var(--my-heading);
+}
+.gallery-sec .para-sec {
+  color: var(--heading-color);
+}
+.gallery-sec .div-border-sec {
+  background-color: var(--my-primary-color);
+  height: 4px;
+  width: 50px;
+}
+
+
+
+.custom-gallery-image {
+  max-width: 240px;
+  max-height: 230px;
+  margin: 0 auto;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+  border: 2px solid transparent; /* Border شفاف بشكل افتراضي */
+}
+
+.custom-gallery-image:hover {
+  transform: scale(1.05);
+  border-color: var(--my-primary-color); /* إضافة لون للإطار عند hover */
+}
+
+.slick-dots li button:before {
+  color: var(--my-primary-color) !important;
+  font-size: 12px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1 !important;
+  color: var(--my-primary-color) !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: var(--my-primary-color) !important;
+}
+
+@media (max-width: 768px) {
+  .custom-gallery-image {
+    max-width: 300px;
+    max-height: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-gallery-image {
+    max-width: 250px;
+    max-height: 180px;
+  }
+}
